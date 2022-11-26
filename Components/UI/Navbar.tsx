@@ -24,7 +24,7 @@ const Navbar: FC = () => {
           alt="search"
           width={24}
           height={24}
-          className="object-contain"
+          className="w-auto h-auto object-contain"
         />
         <h2 className="font-extrabold text-[24px] text-white leading-[30px]">
           Metaverses
@@ -35,7 +35,7 @@ const Navbar: FC = () => {
           alt="menu"
           width={24}
           height={24}
-          className="object-contain"
+          className="w-auto h-auto object-contain"
         />
       </div>
     </motion.nav>
