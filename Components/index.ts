@@ -4,7 +4,7 @@ import { TypingText, TitleText } from "./CustomTexts";
 //import StartSteps from "./StartSteps";
 //import NewFeatures from "./NewFeatures";
 //import InsightCard from "./InsightCard";
-//import Footer from "./Footer";
+import Footer from "./UI/Footer";
 
 export {
   Navbar,
@@ -14,5 +14,5 @@ export {
   //NewFeatures,
   //ExploreCard,
   //InsightCard,
-  //Footer,
+  Footer,
 };
