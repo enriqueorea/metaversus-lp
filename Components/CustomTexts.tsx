@@ -21,6 +21,19 @@ export const TypingText: FC<Props> = ({ title, textStyles }) => (
     ))}
   </motion.p>
 );
-export const TitleText: FC<Props> = ({ title, textStyles }) => {
-  return <div>TitleText</div>;
+
+type IProps = {
+  children: React.ReactNode;
+  textStyles: string;
 };
+
+export const TitleText: FC<IProps> = ({ children, textStyles }) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView={"show"}
+    className={`mt-[8px] font-bold md:text-[64px] text-[40px] text-white ${textStyles}`}
+  >
+    {children}
+  </motion.h2>
+);

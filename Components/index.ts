@@ -1,8 +1,8 @@
 import Navbar from "./UI/Navbar";
 import { TypingText, TitleText } from "./CustomTexts";
-//import ExploreCard from "./ExploreCard";
-//import StartSteps from "./StartSteps";
-//import NewFeatures from "./NewFeatures";
+import ExploreCard from "./ExploreCard";
+import StartSteps from "./StartSteps";
+import NewFeatures from "./NewFeatures";
 //import InsightCard from "./InsightCard";
 import Footer from "./UI/Footer";
 
@@ -10,9 +10,9 @@ export {
   Navbar,
   TitleText,
   TypingText,
-  //StartSteps,
-  //NewFeatures,
-  //ExploreCard,
+  StartSteps,
+  NewFeatures,
+  ExploreCard,
   //InsightCard,
   Footer,
 };
