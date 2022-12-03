@@ -1,3 +1,4 @@
+"use client";
 import { Footer, Navbar } from "../Components";
 import {
   Hero,

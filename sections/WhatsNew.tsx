@@ -24,7 +24,7 @@ const WhatsNew = (props: Props) => {
         >
           <TypingText title="| What's New?" textStyles="text-start" />
           <TitleText textStyles="text-start">
-            What&apos;s new about Metaversus!?
+            <>What&apos;s new about Metaversus!?</>
           </TitleText>
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature, index) => (

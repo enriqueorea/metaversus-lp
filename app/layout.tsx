@@ -1,3 +1,5 @@
+"use client";
+
 import { NextPage } from "next";
 import React from "react";
 import "../styles/globals.css";
@@ -7,13 +9,9 @@ interface Props {
 }
 
 const RootLayout: NextPage<Props> = ({ children }) => (
-  <html lang="en">
+  <html lang="es">
     <head>
-      <link rel="preconnect" href="https://stijndv.com" />
-      <link
-        rel="stylesheet"
-        href="https://stijndv.com/fonts/Eudoxus-Sans.css"
-      />
+      <meta charSet="utf-8" />
     </head>
     <body>{children}</body>
   </html>
